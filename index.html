@@ -1,100 +1,179 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> HTML Me Something assignment: Sarah Boslaugh</title>
+        <title> HTML Me Something: Sarah Boslaugh</title>
+        <link rel="stylesheet" href="styles.css" type="text/css">
     </head>
         <header>
-            <h1>My Writing Life</h1>
+            <h1 id=tophead >My Writing Life: An Ongoing and Unpredictable Saga</h1>
         </header>
 
     <main>
       <article>
         <h2>An unplanned career </h2>
-              <p>I never planned to be a writer. In fact, I'm not sure what it <em>means</em> to be a writer. 
-                Without getting all existential about it, 
-                I'm a person who has published multiple books with major publishers, 
-                has more planned for the future, and does a lot of "utility" writing and editing as well.
-                <br><br>Did you ever wonder who writes test banks and instructor's manuals for textbooks? 
+              <p class="top" >I never planned to be a writer. In fact, I'm still not entirely sure what it <em>means</em> to be a writer.
+                When an American meets someone for the first time, usually one of the first questions out of his or her mouth is
+                "What do you do?" and to say "I'm a writer" sounds both pretentious and delusional. To most people
+                a writer is either someone whose novels perennially top the <em>New York Times</em>
+                bestseller list, or a hobbyist who self-publishes novels about her cats. 
+                <br><br>Without getting all existential about it, 
+                I'm a person who has published multiple books with major publishers, mostly as an
+                extension of my work in statistics, medicine, and public health. I had no idea when
+                I submitted my first book proposal that writing would become such an important part
+                of my life, but I'm really glad it has. 
+                <br><br>Besides books and professional articles, I do a lot of "utility" writing and 
+                editing as well.
+                Did you ever wonder who writes test banks and instructor's manuals for textbooks? 
                 Or the entries in all those encyclopedias in the library? Probably 
                 someone like me. It's not glamorous, but it pays. This kind of writing is also 
                 useful practice in getting over yourself and getting on with the task at hand.
               </p>
-        
-        <h2>It all started with SPSS</h2>
-              <p> I got a late start, and my writing evolved naturally from the work I was doing as a statistician.
-                My opus 1 is not much of a beach read, but it's still in print, and still a fundamental source 
-                for those who want to do more than click on the menus in SPSS (a.k.a. the "click and shit" approach). 
+        <div class="grid-container">
+            <div>
+            <img src="images/spss.jpg" alt = "An Intermediate Guide to SPSS Programming"
+            height = "302" width = "200"/>
+            </div>
+            <div>
+            <h2>It all started with SPSS</h2>
+              <p>I got a late start in the writing business, after spending quite a few years working as a statistician.
+                  My first book grew naturally out of that line of work, as I noticed there was no book on the market
+                  that discussed SPSS code clearly and simply, with a view to practical applications including data
+                  management tasks. At the time, most beginning SPSS books assumed the user was only interested in running
+                  the program through the GUI menus (better known as the "click and shit" approach) rather than learning 
+                  the program's syntax. My opus 1 is not much of a beach read, but it's still in print, and is still a useful
+                  resource for those who work with SPSS. 
               </p>
-              <img src="images/spss.jpg" alt = "An Intermediate Guide to SPSS Programming"
-              height = "276" width = "183"/>
-        <h2>Data analysis for people who hate collecting data</h2>
-              <p>The second book came about when I was recruited at a conference by a rep
-                  from Cambridge University Press (!). 
-                  I love working with secondary data (basically, data collected by someone else,
-                  often a governmental agency like the CDC), so I wrote a book about that.
-              </p>
-              <img src="images/secondary.jpg" alt = "Secondary Data Sources for Public Health"
-              height = "276" width = "183"/>
-        <h2>A real money-spinner: Statistics in a Nutshell</h2>
-              <p>My next book has caused me the most grief, but has also been the most rewarding.
-                  I wrote it to fill an unmet need--a statistics book for adults who need to learn some 
-                  statistics for their work, or who took a course a long time ago and need a practical refresher.
-                  I get a bump in sales every August and September, so I suspect a lot of college
-                  students are buying it also. It was also my first experience collaborating on a book with someone
-                  (via long distance--my co-author lives in Australia!).
-              </p>    
-              <img src="images/sian1.jpg" alt="Statistics in a Nutshell"
-              height = "276" width = "183"/>
-              <p>There's now a second edition (with me as sole author) and some translations also!
-              </p>
-              <img src="images/sian2.jpeg" alt="Statistics in a Nutshell in Japanese"
-              height = "276" width = "183"/>
-              <h2>My start with encyclopedias</h2>
-              <p>I got my start as an editor at about the same time, and am particularly proud of my very first 
-                  encyclopedia. I included more biostatistical articles than a pure epidemiologist
-                  probably would have, as well as articles about things like 
-                  harm reduction and sexual minorities. Since the main purchasers of SAGE encyclopedias are
-                  public and univerity libraries, the information in these volumes is accessible to many 
-                  people who might never come across, say, an article in a professional journal.  
-              </p>
-              <img src="images/enc epi.jpg" alt="The Encyclopedia of Epidemiology"
-              height = "276" width = "183"/>
-              <h2>Health care: other countries do it better</h2>
-              <p>Both personally and professional, I find the American "system" of health care to be bizarre, wasteful,
-                  cruel. Being a person who works with data, and is always open to hearing how someone else has solved
-                  a problem, I thought a book about how health care works in other countries might help people realize that
-                  other countries have found better ways to deliver care, but no luck so far. 
-              </p>
-              <img src="images/hc systems.jpg" alt="The Encyclopedia of Epidemiology"
-              height = "276" width = "183"/>
-              <h2>Working with ABC-CLIO</h2>
-              <p>I started writing for ABC-CLIO a few years ago. They specialize in reference books for public and 
-                  college libraries, and my specialties with them are medicine and public health. This, my second 
-                  book with ABC-CLIO, came out in 2018. 
-              </p>
-              <img src="images/tg health.jpg" alt="Transgender Health Issues"
-              height = "276" width = "183"/>
-              <h2>Time for some fun</h2>
-              <p>I don't spend <em>all</em> my writing time on professional books. I began reviwing movies almost
-                10 years ago, and am currently the movies editor for <a href="http://theartsstl.com/">TheArtsStl</a>, a local
-                popular culture website. Since I'm a proud member of the <a href-"http://ofcs.org/Online">Online
-                Film Critics Society</a> , I also get to see just about any filmbeing put up for awards, 
-                even if I don't review it. I also cover film festivals when I can, and have a healthy stash of
-                press passes to prove it.  </p>
-              <img src="images/theartsstl.jpg"  alt="TheArtsStl" height = "276" width = "183"/>
-             
-              <h2>Plans for the future</h2>
-              <p> There are so many books I want to write, but choosing which projects are worth pursuing isn't a simple 
-                  decision. The world needs a good guide to math for biology students and lab workers, for
-                  instance, and I have a model in mind, but have several other things to finish first. On a
-                  more popular note, I really enjoy the Quercus 'in minutes" series and it does not currently 
-                  have a volume on statistics. I know I'll get that pitch out the door any day now...
-              </p>
-              <img src="images/quercus.jpg" alt="Some Quercus 'In Minutes' books"
-              height = "276" width = "183"/>
-      </article>
+            </div>
+            
+            <div>
+                <img src="images/secondary.jpg" alt = "Secondary Data Sources for Public Health"
+                height = "302" width = "200"/>
+            </div>
+            <div>
+                <h2>Data analysis for people who hate to collect data</h2>
+                    <p>The second book also drew directly on the work I was doing as a statistician. To put it simply, I 
+                        like analyzing data a whole lot more than I like collecting it. My interests also run to questions too
+                        large to be answered by the type of data a single research group can collect. The solution: work with secondary data, meaning data collected by someone else
+                        (often a governmental agency like the Centers for Disease Control and Prevention. 
+                        I was recruited to write this book by a representative of Cambridge University
+                        Press, which gives me a good name to drop when I want to impress someone. 
+                    </p>
+            </div>
+                     
+            <div>
+                    <img src="images/sian1.jpg" alt="Statistics in a Nutshell"
+                    height = "302" width = "200"/>
+            </div>
+            <div>
+            <h2>A real money-spinner: My first book with O'Reilly</h2>
+                <p>My next book caused me the most grief, but has also been the most rewarding.
+                    I wrote it to fill yet another unmet need--a statistics book for adults who need to learn some 
+                    statistics for their work, or who took a course a long time ago and need a practical refresher.
+                    I get a bump in sales every August and September, so I suspect a lot of college
+                    students are buying it also. It was my first experience collaborating on a book with someone
+                    (via long distance--my co-author lives in Australia!), and was also a good lesson in the benefits 
+                    of writing for a respected series (people don't necessarily know me, but they know the O'Reilly
+                    Nutshell series). 
+                </p> 
+            </div>          
+
+            <div>
+                <img src= "images/sian2.jpeg" alt="Statistics in a Nutshell in Japanese"
+                height = "302" width = "200"/>
+            </div>
+            <div>
+                <h2>The gift that keeps on giving</h2>
+                    <p>There's now a second edition (with me as sole author) and some translations also!
+                        Authors often say that their dream is to be on the "permanent backlist", which 
+                        means that your book remains in the publisher's active catalogue for years, and the 
+                        royalties continue to roll in for years after you completed the book. Harper Lee is the model
+                        for this kind of success--you only need write one book in your life if it's as good, and 
+                        as perennially popular, as <em>To Kill a Mockingbird</em>. I'm nowhere near her class, of
+                        course, but <em>Statistics in a Nutshell</em> is the kind of steady earner that makes it 
+                        easier to ride out the feast-or-famine cycle typical of a freelance writer's income. 
+                    </p> 
+            </div>   
+            <div>
+                    <img src= "images/enc epi.jpg" alt="The Encyclopedia of Epidemiology"
+                    height = "302" width = "200"/>
+            </div>
+            <div>
+                <h2>Breaking into the Editing Market</h2>
+                    <p> I got my start as an editor at about the same time I was writing <em>Statistics in a 
+                        Nutshell</em>, and I'm particularly proud of the first encyclopedia I edited, the <em>
+                        Encyclopedia of Epidemiology</em>, published by SAGE. Editing an encyclopedia is a more 
+                        influential job than you might think. The Editor-in-Chief 
+                        gets to decide what articles will be included in the encyclopedia, for instance, and I included more biostatistical articles than a pure 
+                        epidemiologist probably would have, as well as articles about public health issues like 
+                        harm reduction and threats faced by sexual minorities.  
+                    </p> 
+            </div>             
+            <div>
+                    <img src="images/hc systems.jpg" alt="The Encyclopedia of Epidemiology"
+                    height = "302" width = "200"/>
+            </div>
+            <div>
+                <h2>Health Care: Other Choices are Available</h2>
+                    <p> Both personally and professional, I find the American "system" of health care to be bizarre, wasteful,
+                        cruel. Being a person who works with data, and is always open to hearing how someone else has solved
+                        a problem, I thought a book about how health care works in other countries might help people realize that
+                        other countries have found better ways to deliver care. Unfortunately, there's too many financial interests,
+                        and too much belief in American exceptionalism, to make information a particularly useful weapon in
+                        this battle.
+                    </p> 
+            </div>    
+
+            <div>
+                    <img src="images/tg health.jpg" alt="Transgender Health Issues"
+                    height = "302" width = "200"/>
+            </div>
+            <div>
+                    <h2>Working with ABC-CLIO</h2>
+                    <p>I started writing for ABC-CLIO, a company specializing  in reference books for public and 
+                        undergraduate libraries, a few years ago. Writing for that audience demands clarity and particular attention to presenting
+                        controversial issues in a balanced manner. My specialties at ABC-CLIO are medicine and public health, and writing
+                        for them has allowed me to explore topics of interest to me personally that are also of national significance. My
+                        <em>Transgender Health Issues</em>>, my second book with ABC-CLIO, came out in 2018; I wrote a book about
+                        drug resistance for them, and am currently working on a volume about genetic testing. 
+            </div>   
+
+            <div>
+                    <img src="images/careers.jpg" alt="Careers and Occupations"
+                    height = "302" width = "200"/>
+            </div>
+            <div>
+                    <h2>A Reference Volume for Gale</h2>
+                    <p>One of the advantages of knowing statistics and being comfortable with secondary data 
+                        is that you can write knowledgeably about subjects outside your specific professional focus. Case 
+                        in point: a series volume I wrote for Gale about
+                        careers and occupations. My job on this volume was similar to that of an editor, since 
+                        my main task was to update statistics in the previous volume (which were largely based on government
+                        reports issued every year or two. I also added some new sections (even worked in my favorite
+                        economist, Paul Krugman), and Gale gave me an author credit. 
+            </div>   
+
+
+
+            <div>
+                    <img src="images/quercus.jpg" alt="Some Quercus 'In Minutes' books"
+                    height = "302" width = "200"/>
+            </div>
+            <div>
+                    <h2>Plans for the future</h2>
+                    <p>There are so many books I want to write, but choosing which projects
+                        to pursue next isn't always a simple decision. The world needs a good guide to math for biology 
+                        students and lab workers, for instance, and I have a model in mind, but have several other things 
+                        to finish first. On a more popular note, I really enjoy the Quercus 'in minutes" series and it does 
+                        not currently have a volume on statistics. I know I'll get that pitch out the door any day now...
+            </div>  
+
+
+        </div>
+      
+        </article>
     </main>
     <footer>
         <p>&copy; 2018 Sarah Boslaugh</p>
     </footer>
 </html>
+         
